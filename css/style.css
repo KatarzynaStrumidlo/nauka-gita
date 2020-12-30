@@ -1,7 +1,7 @@
 body {
     text-align: center;
-    background-color: aquamarine;
-    color: grey;
+    background-color: rgb(143, 255, 158);
+    color: rgb(61, 61, 61);
 }
 div {
     display: flex;
