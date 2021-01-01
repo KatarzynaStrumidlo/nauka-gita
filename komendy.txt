@@ -1,0 +1,26 @@
+Instalacja pakietów:
+1. Zainstalowałam autoprefixer-cli za pomocą komendy : npm install --save-dev autoprefixer-cl
+2. Zainstalowałam html-validate za pomocą komendy : npm install --save-dev html-validate
+
+3. Nie wiem czy zrobiłam to poprawnie, bo w dokumentacji są inne komendy instalacji.
+   html-validate chyba dobrze zainstalowałam, patrząc na stronę html-validate.org (jeżli chodzi o stronę z dokumentacją
+   podaną w kursie, to nie do końca rozumiem i co im chodzi)
+
+4. Jak się okazało moje sposoby instalacji autoprefixer-cli nie były poprawne, bo komenda uruchamiająca nie zadziałała. 
+   Zainstalowałam komendą z dokumentacji i zadziałało. Ale w poleceniu do zadania jest napisane że trzeba użyć flagi --save-dev.
+   Nie wiem jak tej flagi użyć w takim razie.
+   Skoro w komendzie instalacji autoprefixer-cli było słowo global to czy to jest jednorazowa instalacja "na zawsze"? Czy przy 
+   nowym projekcie znów trzeba instalować te wszytskie pakiety?
+   Miałam plik .css w innym katalogu w katalofu projektu, musiałam go "wyciągnąć" do katalogu projektu żeby komenda uruchamiająca 
+   zadziałała. Jak zmodyfikować komendę, żeby zadziałała na plik .css w katalogu css?
+
+Przykładowe komendy uruchamiające: 
+1. autoprefixer-cli:
+   autoprefixer-cli -o style.prefixed.css style.css
+
+2. html-validate:
+   node_modules/.bin/html-validate index.html
+   taką komendę znalazłam na stronie html-validate.org, jednak mimo tego, że niby się uruchomiła to jednak nie widzę rezultatów.
+
+    Ogólnie mam problem z tym pakietem. Wydaje mi się, że jakoś trzeba go skonfigurować? Mam screeny z moich "wypocin".
+
